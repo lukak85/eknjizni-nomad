@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="it">
+  <meta name="keywords" content="e-knjižni nomad">
+
+  <title>e-knjižni nomad</title>
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Icon Font css -->
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+  <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css">
+  <!-- Themify icon Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body id="top-header">
+
+
+    <div class="logo-bar d-none d-md-block d-lg-block bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo d-none d-lg-block">
+                        <!-- Brand -->
+                        <a class="navbar-brand js-scroll-trigger" href="welcome.html">
+                            <h2>e-knjižni nomad</h2>
+                        </a>
+                    </div>
+                </div>
+                <ul class="ml-lg-auto list-unstyled m-0">
+                    <li><a href="#" class="btn btn-white btn-circled"><i class="fas fa-search"></i> Iskanje po e-knjižnici</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR
+    ================================================= -->
+    <div class="main-navigation" id="mainmenu-area">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius">
+                <div class="container">
+                <a class="navbar-brand d-lg-none d-block" href="">
+                    <h4>e-knjižni nomad</h4>
+                </a>
+                <!-- Toggler -->
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- Links -->
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="welcome.html" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                e-knjižnica
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="index.html">
+                                    Avtorji
+                                </a>
+                                <a class="dropdown-item " href="index-2.html">
+                                    Dela
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="about.html" class="nav-link js-scroll-trigger">
+                                O nomadu
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="ml-lg-auto list-unstyled m-0">
+                        <li><a href="map.html" class="btn btn-white btn-circled">Zemljevid e-knjižnice</a></li>
+                    </ul>
+
+                </div>
+                </div> <!-- / .navbar-collapse -->
+            </nav>
+        </div> <!-- / .container -->
+    </div>
+
+    <body>
+        <!-- <script>
+            var canvas = document.body.appendChild( document.createElement( 'canvas' ) ),
+    context = canvas.getContext( '2d' );
+context.globalCompositeOperation = 'lighter';
+canvas.width = 1280;
+canvas.height = 800;
+draw();
+
+var textStrip = ['Nekaj', 'je', 'zraku', 'Lepega', 'Nežnega', 'Mimobežnega', 'Nekaj', 'je', 'zraku', 'Čuti', 'se', 'Sluti', 'kot'];
+
+var stripCount = 60, stripX = new Array(), stripY = new Array(), dY = new Array(), stripFontSize = new Array();
+
+for (var i = 0; i < stripCount; i++) {
+    stripX[i] = Math.floor(Math.random()*1265);
+    stripY[i] = -100;
+    dY[i] = Math.floor(Math.random()*7)+3;
+    stripFontSize[i] = Math.floor(Math.random()*16)+8;
+}
+
+var theColors = ['#cefbe4', '#81ec72', '#5cd646', '#54d13c', '#4ccc32', '#43c728'];
+
+var elem, context, timer;
+
+function drawStrip(x, y) {
+    for (var k = 0; k <= 20; k++) {
+        var randChar = textStrip[Math.floor(Math.random()*textStrip.length)];
+        if (context.fillText) {
+            switch (k) {
+            case 0:
+                context.fillStyle = theColors[0]; break;
+            case 1:
+                context.fillStyle = theColors[1]; break;
+            case 3:
+                context.fillStyle = theColors[2]; break;
+            case 7:
+                context.fillStyle = theColors[3]; break;
+            case 13:
+                context.fillStyle = theColors[4]; break;
+            case 17:
+                context.fillStyle = theColors[5]; break;
+            }
+            context.fillText(randChar, x, y);
+        }
+        y -= stripFontSize[k];
+    }
+}
+
+function draw() {
+    // clear the canvas and set the properties
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.shadowOffsetX = context.shadowOffsetY = 0;
+    context.shadowBlur = 8;
+    context.shadowColor = '#94f475';
+    
+    for (var j = 0; j < stripCount; j++) {
+        context.font = stripFontSize[j]+'px MatrixCode';
+        context.textBaseline = 'top';
+        context.textAlign = 'center';
+        
+        if (stripY[j] > 1358) {
+            stripX[j] = Math.floor(Math.random()*canvas.width);
+            stripY[j] = -100;
+            dY[j] = Math.floor(Math.random()*7)+3;
+            stripFontSize[j] = Math.floor(Math.random()*16)+8;
+            drawStrip(stripX[j], stripY[j]);
+        } else drawStrip(stripX[j], stripY[j]);
+        
+        stripY[j] += dY[j];
+    }
+  setTimeout(draw, 70);
+}
+        </script> -->
+        <!-- <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+            <li><a data-weight="4" href="/tag/http">HTTP</a></li>
+            <li><a data-weight="2" href="/tag/ember">Ember</a></li>
+            <li><a data-weight="5" href="/tag/sass">Sass</a></li>
+            <li><a data-weight="8" href="/tag/html">HTML</a></li>
+            <li><a data-weight="6" href="/tag/flexbox">FlexBox</a></li>
+            <li><a data-weight="4" href="/tag/api">API</a></li>
+            <li><a data-weight="5" href="/tag/vuejs">VueJS</a></li>
+            <li><a data-weight="6" href="/tag/grid">Grid</a></li>
+            <li><a data-weight="3" href="/tag/rest">Rest</a></li>
+            <li><a data-weight="9" href="/tag/javascript">JavaScript</a></li>
+            <li><a data-weight="3" href="/tag/animation">Animation</a></li>
+            <li><a data-weight="7" href="/tag/react">React</a></li>
+            <li><a data-weight="8" href="/tag/css">CSS</a></li>
+            <li><a data-weight="1" href="/tag/cache">Cache</a></li>
+            <li><a data-weight="3" href="/tag/less">Less</a></li>
+          </ul> -->
+          <div class="ani">
+          <div class="naslov"><h5>Tone Pavček</h5><p>Nekaj je v zraku</p></div>
+          <div class="animacija">Nekaj</div>
+          <div class="animacija2">je</div>
+          <div class="animacija11">v</div>
+          <div class="animacija3">zraku</div>
+          <div class="animacija2">Lepega</div>
+          <div class="animacija3">Nežnega</div>
+          <div class="animacija33">Mimobežnega</div>
+        </div>
+
+          <br>
+          <a href="index.html"><button class="btn btn-green btn-circled" style="margin: auto; display:block">Zapri</button></a>
+      
+    </body>
+        
+<!-- 
+    <footer class="footy fixed-bottom">
+
+        <a href="scan.html">
+            <img src="slike/scan.png" >
+        </a>
+
+    </footer> -->
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="plugins/bootstrap/js/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Map Js -->
+    <script src="plugins/google-map/gmap3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+
+    <script src="js/form/contact.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+
+  </body>
+  </html>
