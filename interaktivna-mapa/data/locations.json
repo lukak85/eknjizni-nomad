@@ -1,0 +1,68 @@
+[
+    {
+        "x": 556.5865183437306,
+        "y": 70.31275315314275,
+        "z": -355.1548694769026,
+        "sphereId": "D999B55E-30EE-49A9-8230-C7962993A1AB",
+        "name": "Oton Župančič",
+        "location": "Dalmatinova cesta 1",
+        "imageRef": "zupancic.jpg",
+        "text": "Beži…vse beži…le v \ndalji planine!\nTam zemlja je naša zakipela\nzahrepenela, v nebo je hotela\nv višino pognala kot val,\na v naletu pod zvezdami\nval je obstal..",
+        "literatureInfo": "Z vlakom"
+    },
+    {
+        "x": 699.1157414873437,
+        "y": 85.2529719438412,
+        "z": 276.31168500431227,
+        "sphereId": "8F5A77E0-7F8E-46F3-87D7-4D97EAA3FE91",
+        "name": "Lili Novy",
+        "location": "Stari trg 11a",
+        "imageRef": "novy.jpg",
+        "text": "Hodim in gledam pomlad,\ncvetice, drevesa in ptice,\nslišim šumenje in klice:\n»Živeti-živeti-živeti\nsred zmeraj kipečih naslad!«\n",
+        "literatureInfo": "Goreče telo"
+    },
+    {
+        "x": 731.0877556440264,
+        "y": 66.60414578736913,
+        "z": 591.2549025789787,
+        "sphereId": "AE3020E1-66F3-4DC4-9C42-D02BA9E01CBA",
+        "name": "France Prešeren",
+        "location": "Rožna ulica 5",
+        "imageRef": "preseren.jpg",
+        "text": "Pesem moja je posoda tvojega imena,\nmojega srca gospoda tvojega imena,\nv nji bom med slovenske brate sladki glas zanesel.\nOd zahoda do izhoda tvojega imena,\nna posodi v zlatih črkah slava se bo brala.\nOd naroda do naroda tvojega imena\nz njo svetloba bo gorela še takrat, ko bova\nonstran karonov'ga broda, tvojega imena.\nBolj Kodelije, Korine, Cintije al' Laure,\nbi bilo pozabiti škoda tvojega imena.",
+        "literatureInfo": "Gazele I"
+    },
+    {
+        "x": -1621.692589218455,
+        "y": 150.0292552575787,
+        "z": -235.1024839153947,
+        "sphereId": "33BA353F-62BD-4CB3-8E2C-E4AB78B31EA4",
+        "name": "Ivan Cankar",
+        "location": "Rožnik",
+        "imageRef": "cankar.jpg",
+        "text": "Objamem in poljubim te,\nda v mehkih rokah tvojih\nugasne ta pekoča strast,\nta ogenj v prsih mojih…\n",
+        "literatureInfo": "Erotika-1899 "
+    },
+    {
+        "x": -50.19908368928111,
+        "y": 77.20148684337073,
+        "z": 298.53331768796636,
+        "sphereId": "F0B2E366-2FB5-4515-9096-433B1A0BACA3",
+        "name": "Anton Aškerc",
+        "location": "Prešernova cesta 9",
+        "imageRef": "askerc.jpg",
+        "text": "Mol ita že polje in log,\nTam onkraj slavonskih ostrog\nv neskrbnem že spanju po iva.\nZavit v plašČ  temne noči\nOgledat poslani smo mi,\nkot zdaj naš sovražnik se skriva…«",
+        "literatureInfo": "Brodnik"
+    },
+    {
+        "x": 1023.6372041447135,
+        "y": 67.32363733307693,
+        "z": -17.05603591918998,
+        "sphereId": "E69B9776-9F49-4CB7-AB47-5E741064D6CB",
+        "name": "Dragotin Kette",
+        "location": "Cukrarna - Poljanski nasip 6",
+        "imageRef": "kette.jpg",
+        "text": "V tiho samoto se kradejo, sijejo\npolni nemira in polni mladosti\nsončni prameni, in ljubko se vijejo\nlahki zefiri, otroci prostosti.",
+        "literatureInfo": "Izprehod"
+    }
+]

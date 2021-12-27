@@ -1,0 +1,308 @@
+/* Variables */
+:root {
+    --main-background-color: #ecf0f3;
+    /* --main-background-color: #F05263; */
+    --popup-visibility: hidden;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+.fullscreen > * {
+    width: 100%;
+    height: 100%;
+}
+
+#popup {
+    max-width: 75%;
+    height: 90%;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 1px 3px 1px 1px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow: auto;
+    visibility: var(--popup-visibility);
+}
+
+.text {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media (orientation: portrait) {
+    #popup {
+        width: 90%;
+        height: 35%;
+        right: 10%;
+    }
+}
+
+.locationImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#codeQR {
+    width: 60%;
+}
+
+#locationName {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#locationText {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.35em;
+}
+
+#literatureInfo {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.2em;
+    z-index: 200;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-track {
+    background: #888;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+#welcomeScreen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    visibility: visible;
+}
+
+#myProgress {
+    width: 60%;
+    margin: auto;
+    -ms-transform: translateY(50vh);
+    transform: translateY(50vh);
+    background-color: grey;
+}
+  
+#myBar {
+    width: 1%;
+    height: 5px;
+    background-color: whitesmoke;
+}
+
+#loadingText {
+    text-align: center;
+    color: whitesmoke;
+    -ms-transform: translateY(40vh);
+    transform: translateY(40vh);
+}
+
+/*
+.mapButtons {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1000;
+}
+*/
+
+#fab {
+    position: absolute;
+    /*
+    left: 10px;
+    top: 10px;
+    */
+
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.mapButtons {
+    margin: 10px;
+
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #000;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    z-index: 10;
+}
+
+.mapButtonImages:hover {
+    opacity: 0.3;
+    transition: opacity 0.25s ease;
+}
+
+#editButton {
+    transition-delay: 0.05s;
+}
+
+#infoButton {
+    transition-delay: 0.1s;
+}
+
+#backButton {
+    transition-delay: 0.15s;
+}
+
+#addButton {
+    transition-delay: 0.05s;
+}
+
+#removeButton {
+    transition-delay: 0.1s;
+}
+
+#saveButton {
+    transition-delay: 0.15s;
+}
+
+#fabButtons {
+    /*
+    left: 10px;
+    */
+    top: 80px;
+
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+#moveEditButtons {
+    /*
+    left: 10px;
+    */
+    top: 80px;
+
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#confirmButton {
+    background-color: green;
+}
+
+#declineButton {
+    background-color: red;
+}
+
+#addMoveRemove {
+    left: 80px;
+
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+/* FAB screens */
+
+#infoScreen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+    overflow: auto;
+
+    z-index: 20;
+}
+
+.infoTitle {
+    margin-right: 25%;
+    margin-left: 25%;
+    
+    text-align: center;
+    color: whitesmoke;
+
+    text-transform: uppercase;
+}
+
+.infoText {
+    margin-right: 25%;
+    margin-left: 25%;
+    
+    text-align: left;
+    color: whitesmoke;
+}
+
+@media (orientation: portrait) {
+    .infoTitle {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    
+    .infoText {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+input {
+    width: 80%;
+    align-items: center;
+}
+
+#inputText {
+    width: 80%;
+    height: 100px;
+    resize: none;
+}
+
+#adButtonContainer {
+    bottom: 20px;
+    align-items: center;
+}
