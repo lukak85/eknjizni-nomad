@@ -250,8 +250,8 @@ function displayScene() {
     
     camera.position.set(14.5247841, -25, 46.0536002);
     
-    controls.target = new Vector3(-14.5247841, 100, -46.0536002);
-    var newTarget = new Vector3(-14.5247841, 100, -46.0536002);
+    controls.target = new Vector3(837.9912044763739, 154.93261174837892, 282.5662397119079);
+    var newTarget = new Vector3(837.9912044763739, 154.93261174837892, 282.5662397119079);
 
     controls.maxPolarAngle = Math.PI / 3;
     controls.minPolarAngle = Math.PI / 12;
@@ -388,7 +388,8 @@ function displayScene() {
                                     locations[currentEditing].imageRef = document.getElementById("inputImageRef").value;
                                     locations[currentEditing].text = document.getElementById("inputText").value;
                                     locations[currentEditing].literatureInfo = document.getElementById("inputLitInfo").value;
-                                    document.getElementById("popup").style.visibility = "hidden";
+                                    const r = document.querySelector(':root');
+                                    r.style.setProperty('--popup-visibility', 'hidden');
                                     console.log("Saved information");
                                 });
                                 
