@@ -1,0 +1,40 @@
+{{!-- <br>
+        <ul>
+            {{#each dela as |delo|}}
+                <li>
+                    <h4>
+                        <a href="/">{{{delo.priimek}}}</a>
+                    </h4>
+                </li>
+            {{/each}}
+        </ul> --}}
+
+<section class="banner-area py-7">
+        <!-- Content -->
+        <div class="container">
+            <div class="row  align-items-center">
+                <div class="col-md-12 col-lg-12 text-center text-lg-left">
+                    <div class="main-banner">
+
+                        <h4>Virtualni sprehod: avtorji</h4>
+                        
+                        <div class="scrollavtorji">
+                          <div class="card-deck">
+                            {{#each dela as |delo|}}
+                            <div class="card">
+                                <a href="/{{delo.id}}">
+                                <img src="../images/ferilainscek.jpeg" class="card-img" alt="avtor-slika" style="width: 100px","height: 170px">
+                                <div class="card-body">
+                                <h5 class="card-title">{{delo.ime}}</h5>
+                                <h5 class="card-title"></h5class>{{delo.priimek}}</h5>
+                                <p>{{delo.pesemnaslov}}</p>
+                                </a>
+                              </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

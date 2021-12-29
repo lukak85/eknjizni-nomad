@@ -1,0 +1,60 @@
+[{
+    "id": 1,
+    "ime": "Oton",
+    "priimek": "Župančič",
+    "naslov": "Dalmatinova cesta",
+    "pesem": "Beži, vse beži",
+    "pesemnaslov": "Z vlakom",
+    "slika-src": "/"
+},{
+    "id": 2,
+    "ime": "Lily",
+    "priimek": "Novy",
+    "naslov": "Stari trg 11a",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Goreče telo",
+    "slika-src": "/"
+},
+{
+    "id": 3,
+    "ime": "France",
+    "priimek": "Prešeren",
+    "naslov": "Rožna ulica 5",
+    "pesem": "Pesem moja",
+    "pesemnaslov": "Gazele I",
+    "slika-src": "/"
+},{
+    "id": 4,
+    "ime": "Ivan",
+    "priimek": "Cankar",
+    "naslov": "Rožnik",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Erotika 1899",
+    "slika-src": "/"
+}, {
+    "id": 5,
+    "ime": "Anton",
+    "priimek": "Aškerc",
+    "naslov": "Prešernova cesta 9",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Brodnik",
+    "slika-src": "/"
+}, {
+    "id": 6,
+    "ime": "Dragotin",
+    "priimek": "Kette",
+    "naslov": "Cukrarna, Poljanski nasip",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Izprehod",
+    "slika-src": "/"
+}, {
+    "id": 7,
+    "ime": "Janez",
+    "priimek": "Menart",
+    "naslov": "Poljanski nasip 30",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Stara kavarna",
+    "slika-src": "/"
+}
+
+]
