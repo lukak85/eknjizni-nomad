@@ -1,9 +1,15 @@
 var dela = require("../models/dela.json");
+// var dela2 = require("../models/dela2.json");
+// var dela3 = require("../models/dela3.json");
+// var dela4 = require("../models/dela4.json");
 
 var seznam = (req, res) => {
     res.render('index', {
         title: 'e-knjižni nomad',
         dela: dela
+        // dela2: dela2
+        // // dela3: dela3,
+        // // dela4: dela4
     });
 };
 
@@ -17,9 +23,20 @@ var podrobnostiDela = (req, res) => {
     });
 };
 
+var podrobnostiPesmi = (req, res) => {
+    var seznamIndex = req.params.id;
+
+    dela.forEach(function (item, index) {
+        if(item.id == seznamIndex) {
+            res.render('pesem', item);
+        }
+    });
+};
+
 module.exports = {
     seznam,
-    podrobnostiDela
+    podrobnostiDela,
+    podrobnostiPesmi
 };
 
 

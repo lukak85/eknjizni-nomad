@@ -1,0 +1,41 @@
+[{
+    "id": 6,
+    "ime": "Dragotin",
+    "priimek": "Kette",
+    "naslov": "Cukrarna, Poljanski nasip",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Izprehod",
+    "slika-src": "/public/images/ferilainscek.jpeg"
+}, {
+    "id": 7,
+    "ime": "Janez",
+    "priimek": "Menart",
+    "naslov": "Poljanski nasip 30",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Stara kavarna",
+    "slika-src": "/"
+}, {
+    "id": 8,
+    "ime": "Valentin",
+    "priimek": "Vodnik",
+    "naslov": "Vodnikova cesta",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Moj spomenik",
+    "slika-src": "/"
+}, {
+    "id": 9,
+    "ime": "Srečko",
+    "priimek": "Kosovel",
+    "naslov": "Križevniška 8",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Integrali",
+    "slika-src": "/"
+}, {
+    "id": 10,
+    "ime": "Mila",
+    "priimek": "Kačič",
+    "naslov": "Lepi pot 4",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Skoz pomladni dež",
+    "slika-src": "/"
+}]

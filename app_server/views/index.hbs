@@ -1,19 +1,85 @@
-{{!-- <br>
-        <ul>
-            {{#each dela as |delo|}}
-                <li>
-                    <h4>
-                        <a href="/">{{{delo.priimek}}}</a>
-                    </h4>
-                </li>
-            {{/each}}
-        </ul> --}}
+    {{!-- <div class="card-group">
+     {{#each dela as |delo|}}
+        <div class="card">
+          <img class="card-img-top" src={{delo.slika-src}}>
+          <div class="card-body">
+            <div class="text-center">
+            <h5 class="card-title">{{delo.ime}}</h5>
+            </div>
+          </div>
+          </div>
+    {{/each}}
+    </div> --}}
+{{!-- <row>
+<div class="card-group">
+    {{#each dela as |delo|}}
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{delo.ime}}</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  {{/each}}
+</div>
+</row> --}}
 
-<section class="banner-area py-7">
+{{!-- <div class="card-deck">
+{{#each dela as |delo|}}
+  <div class="card">
+    <img class="card-img-top" src="{{delo.slika-src}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{delo.ime}} {{delo.priimek}}</h5>
+      <p class="card-text">{{delo.pesemnaslov}}</p>
+      <p class="card-text"><small class="text-muted">{{delo.naslov}}</small></p>
+    </div>
+    {{/each}}
+  </div> --}}
+
+<div class="card-columns">
+{{#each dela as |delo|}}
+  <div class="card" style="border-color: black;">
+      <a href="/{{delo.id}}">
+    <img class="card-img-details" src="../images/sreckokosovel.jpg" style="width: 140px;", height="170px;">
+    <div class="card-body">
+      <h5 class="card-title">{{delo.ime}} {{delo.priimek}}</h5>
+      <p class="card-text">{{delo.pesemnaslov}}</p>
+    </div>
+    </a>
+  </div>
+  {{/each}}
+  </div>
+
+        <!-- Content -->
+        {{!-- <div class="container">
+                
+
+                        <h4>Virtualni sprehod: avtorji</h4>
+                        
+                          <div class="card-deck col-lg-4" width="100% !important"> 
+                            {{#each dela as |delo|}}
+                            
+                            <div class="card" style="width: 18rem;" width="100% !important" >
+                                <a href="/{{delo.id}}">
+                                <img src="../images/ferilainscek.jpeg" class="card-img" alt="avtor-slika" style="width: 100px","height: 170px">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{delo.ime}}</h5>
+                                    <h5 class="card-title"></h5class>{{delo.priimek}}</h5>
+                                    <p>{{delo.pesemnaslov}}</p>
+                                </a>
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                   
+        </div> --}}
+   
+
+{{!-- <section class="banner-area py-7 content-big">
         <!-- Content -->
         <div class="container">
-            <div class="row  align-items-center">
-                <div class="col-md-12 col-lg-12 text-center text-lg-left">
+                <div class="col-md-12 col-lg-12">
                     <div class="main-banner">
 
                         <h4>Virtualni sprehod: avtorji</h4>
@@ -21,6 +87,7 @@
                         <div class="scrollavtorji">
                           <div class="card-deck">
                             {{#each dela as |delo|}}
+                            
                             <div class="card">
                                 <a href="/{{delo.id}}">
                                 <img src="../images/ferilainscek.jpeg" class="card-img" alt="avtor-slika" style="width: 100px","height: 170px">
@@ -34,7 +101,7 @@
                             {{/each}}
                         </div>
                     </div>
-                </div>
+                
             </div>
         </div>
-    </section>
+    </section> --}}

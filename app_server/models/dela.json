@@ -5,7 +5,8 @@
     "naslov": "Dalmatinova cesta",
     "pesem": "Beži, vse beži",
     "pesemnaslov": "Z vlakom",
-    "slika-src": "/"
+    "slika-src": "../images/otonzupancic.jpg",
+    "slika-qr": "/"
 },{
     "id": 2,
     "ime": "Lily",
@@ -13,7 +14,8 @@
     "naslov": "Stari trg 11a",
     "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
     "pesemnaslov": "Goreče telo",
-    "slika-src": "/"
+    "slika-src": "/",
+    "slika-qr": "/"
 },
 {
     "id": 3,
@@ -22,7 +24,8 @@
     "naslov": "Rožna ulica 5",
     "pesem": "Pesem moja",
     "pesemnaslov": "Gazele I",
-    "slika-src": "/"
+    "slika-src": "/",
+    "slika-qr": "/"
 },{
     "id": 4,
     "ime": "Ivan",
@@ -30,7 +33,8 @@
     "naslov": "Rožnik",
     "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
     "pesemnaslov": "Erotika 1899",
-    "slika-src": "/"
+    "slika-src": "/",
+    "slika-qr": "/"
 }, {
     "id": 5,
     "ime": "Anton",
@@ -38,7 +42,8 @@
     "naslov": "Prešernova cesta 9",
     "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
     "pesemnaslov": "Brodnik",
-    "slika-src": "/"
+    "slika-src": "/",
+    "slika-qr": "/"
 }, {
     "id": 6,
     "ime": "Dragotin",
@@ -46,7 +51,8 @@
     "naslov": "Cukrarna, Poljanski nasip",
     "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
     "pesemnaslov": "Izprehod",
-    "slika-src": "/"
+    "slika-src": "/",
+    "slika-qr": "/"
 }, {
     "id": 7,
     "ime": "Janez",
@@ -54,7 +60,98 @@
     "naslov": "Poljanski nasip 30",
     "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
     "pesemnaslov": "Stara kavarna",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 8,
+    "ime": "Valentin",
+    "priimek": "Vodnik",
+    "naslov": "Vodnikova cesta",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Moj spomenik",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 9,
+    "ime": "Srečko",
+    "priimek": "Kosovel",
+    "naslov": "Križevniška 8",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Integrali",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 10,
+    "ime": "Mila",
+    "priimek": "Kačič",
+    "naslov": "Lepi pot 4",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Skoz pomladni dež",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 11,
+    "ime": "Edvard",
+    "priimek": "Kocbek",
+    "naslov": "Valvazorjeva 10",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Oba",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 12,
+    "ime": "Gregor",
+    "priimek": "Strniša",
+    "naslov": "Rožna dolina, Cesta 5/21",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Pesem o kamnitem pragu",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 13,
+    "ime": "Cene",
+    "priimek": "Vipotnik",
+    "naslov": "Tabor 3a",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Pesem o soncu",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 14,
+    "ime": "Alojz",
+    "priimek": "Gradnik",
+    "naslov": "Župančičeva 14",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Eros Tanatos",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 15,
+    "ime": "Dane",
+    "priimek": "Zajc",
+    "naslov": "Praprotnikova 5",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Isti",
+    "slika-src": "/",
+    "slika-qr": "/"
+}, {
+    "id": 16,
+    "ime": "Jure",
+    "priimek": "Detela",
+    "naslov": "Gregorčičeva 17",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Potujoči",
     "slika-src": "/"
+}, {
+    "id": 17,
+    "ime": "Marko",
+    "priimek": "Pavček",
+    "naslov": "Trubarjeva 61",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Z vsako pesmijo me je manj",
+    "slika-src": "/",
+    "slika-qr": "/"
 }
+
 
 ]

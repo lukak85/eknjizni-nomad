@@ -19,9 +19,9 @@
 * 12.FOOTER CSS STYLE
 * ----------------------------------------
 */
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
+@import url(https://db.onlinewebfonts.com/c/e7ba83c53239b2cf814d56345146e2a5?family=OCRATributeW01-RegularMono);
 html {
-  font-family: sans-serif;
+  font-family: "OCRATributeW01-RegularMono";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "OCRATributeW01-RegularMono";
   font-size: 15px;
   line-height: 1.75;
   margin: 0;
@@ -85,6 +85,7 @@ body {
 }
 
 .bg>h1 {
+  font-family: "OCRATributeW01-RegularMono";
   padding-top: 10%;
   padding-left: 10%;
   font-size: 3em;
@@ -179,6 +180,14 @@ body {
 
   .card-deck {
     align-content: center;
+    
+      @include media-breakpoint-only(lg) {
+        column-count: 4;
+      }
+      @include media-breakpoint-only(xl) {
+        column-count: 5;
+      }
+    
   }
 
   .row {
@@ -251,7 +260,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", sans-serif;
+  font-family: "OCRATributeW01-RegularMono";
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: .5rem;
@@ -260,32 +269,38 @@ h6 {
 
 .h1,
 h1 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: 2.125rem;
   line-height: 40px;
 }
 
 .h2,
 h2 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: 1.625rem;
 }
 
 .h3,
 h3 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: 1.375rem;
 }
 
 .h4,
 h4 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: 1.125rem;
 }
 
 .h5,
 h5 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: .9375rem;
 }
 
 .h6,
 h6 {
+  font-family: "OCRATributeW01-RegularMono";
   font-size: .75rem;
 }
 
@@ -2145,13 +2160,27 @@ CONTACT PAGE
 }
 
 .card {
-    border-radius: 25px;
-    padding: 20px;
+    
+  margin: 30px;
+  border-radius: 25px !important;
+  border: none !important;
+  
 }
 
-.card-img {
-  border-radius: 25px;
+.card img {
+  
+  padding: 20px;
+  width: 75%;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.card input {
+  border-radius: 10px !important;
+}
+
+
 
 .card-details {
   border-radius: 25px;
@@ -2223,6 +2252,7 @@ a:hover {
   border-radius: 25px;
   width: 60%;
   height: 60%;
+  float: left;
 }
 
 .content-big {

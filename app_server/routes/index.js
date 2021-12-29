@@ -1,4 +1,5 @@
 var express = require('express');
+const { route } = require('express/lib/application');
 // const { route } = require('express/lib/application');
 var router = express.Router();
 var ctrlDela = require("../controllers/dela");
@@ -22,6 +23,7 @@ router.get('/', ctrlDela.seznam);
 router.get('/about', ctrlInfo.info);
 router.get('/:id', ctrlDela.podrobnostiDela);
 router.get('/map', ctrlMap.mapa);
+router.get('/pesem/:id', ctrlDela.podrobnostiPesmi);
 
 
 module.exports = router;

@@ -1,0 +1,41 @@
+[{
+    "id": 11,
+    "ime": "Edvard",
+    "priimek": "Kocbek",
+    "naslov": "Valvazorjeva 10",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Oba",
+    "slika-src": "/"
+}, {
+    "id": 12,
+    "ime": "Gregor",
+    "priimek": "Strniša",
+    "naslov": "Rožna dolina, Cesta 5/21",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Pesem o kamnitem pragu",
+    "slika-src": "/"
+}, {
+    "id": 13,
+    "ime": "Cene",
+    "priimek": "Vipotnik",
+    "naslov": "Tabor 3a",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Pesem o soncu",
+    "slika-src": "/"
+}, {
+    "id": 14,
+    "ime": "Alojz",
+    "priimek": "Gradnik",
+    "naslov": "Župančičeva 14",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Eros Tanatos",
+    "slika-src": "/"
+}, {
+    "id": 15,
+    "ime": "Dane",
+    "priimek": "Zajc",
+    "naslov": "Praprotnikova 5",
+    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesemnaslov": "Isti",
+    "slika-src": "/"
+}]
