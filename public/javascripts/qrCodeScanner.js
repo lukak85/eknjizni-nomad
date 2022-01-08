@@ -10,7 +10,7 @@ const btnScanQR = document.getElementById("btn-scan-qr");
 
 let scanning = false;
 
-qrcode.callback = res => {
+qrcode.callback = res = {
   if (res) {
     outputData.innerText = res;
     scanning = false;

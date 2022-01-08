@@ -3,154 +3,172 @@
     "ime": "Oton",
     "priimek": "Župančič",
     "naslov": "Dalmatinova cesta",
-    "pesem": "Beži, vse beži",
+    "pesem": ["Beži…vse beži…le v dalji planine!", "Tam zemlja je naša zakipela", "zahrepenela, v nebo je hotela", "v višino pognala kot val,", "a v naletu pod zvezdami", "val je obstal.."],
     "pesemnaslov": "Z vlakom",
     "slika-src": "../images/otonzupancic.jpg",
-    "slika-qr": "/"
+    "slika-qr": "../qr-codes/qr_code_1.png",
+    "title": "E-KNJIŽNI NOMAD"
 },{
     "id": 2,
     "ime": "Lily",
     "priimek": "Novy",
     "naslov": "Stari trg 11a",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Hodim in gledam pomlad,", "cvetice, drevesa in ptice,", "slišim šumenje in klice:", "»Živeti-živeti-živeti", "sred zmeraj kipečih naslad!«"],
     "pesemnaslov": "Goreče telo",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/lilynovy.jpg",
+    "slika-qr": "../qr-codes/qr_code_2.png",
+    "title": "E-KNJIŽNI NOMAD"
 },
 {
     "id": 3,
     "ime": "France",
     "priimek": "Prešeren",
     "naslov": "Rožna ulica 5",
-    "pesem": "Pesem moja",
+    "pesem": ["Pesem moja je posoda tvojega imena,", "mojega srca gospoda tvojega imena,", "v nji bom med slovenske brate sladki glas zanesel.", "Od zahoda do izhoda tvojega imena,", "na posodi v zlatih črkah slava se bo brala.", "Od naroda do naroda tvojega imena", "z njo svetloba bo gorela še takrat, ko bova","onstran karonov'ga broda, tvojega imena.","Bolj Kodelije, Korine, Cintije al' Laure,","bi bilo pozabiti škoda tvojega imena."],
     "pesemnaslov": "Gazele I",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/francepreseren.jpg",
+    "slika-qr": "../qr-codes/qr_code_3.png",
+    "title": "E-KNJIŽNI NOMAD"
 },{
     "id": 4,
     "ime": "Ivan",
     "priimek": "Cankar",
     "naslov": "Rožnik",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Objamem in poljubim te,","da v mehkih rokah tvojih", "ugasne ta pekoča strast,", "ta ogenj v prsih mojih…"],
     "pesemnaslov": "Erotika 1899",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/ivancankar.jpeg",
+    "slika-qr": "../qr-codes/qr_code_4.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 5,
     "ime": "Anton",
     "priimek": "Aškerc",
     "naslov": "Prešernova cesta 9",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Mol ita že polje in log,","Tam onkraj slavonskih ostrog","v neskrbnem že spanju po iva.","Zavit v plašČ  temne noči","Ogledat poslani smo mi,","kot zdaj naš sovražnik se skriva…"],
     "pesemnaslov": "Brodnik",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/antonaskerc.jpg",
+    "slika-qr": "../qr-codes/qr_code_5.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 6,
     "ime": "Dragotin",
     "priimek": "Kette",
     "naslov": "Cukrarna, Poljanski nasip",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["V tiho samoto se kradejo, sijejo","polni nemira in polni mladosti","sončni prameni, in ljubko se vijejo","lahki zefiri, otroci prostosti."],
     "pesemnaslov": "Izprehod",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/dragotinkette.jpg",
+    "slika-qr": "../qr-codes/qr_code_6.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 7,
     "ime": "Janez",
     "priimek": "Menart",
     "naslov": "Poljanski nasip 30",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Prihajali so z rimami v očeh","In s polnimi rokavi šal. Drobiž","Je žvenketal na pladenj. Vsenavzkriž","Sta se prerivala prepir in smeh."],
     "pesemnaslov": "Stara kavarna",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/janezmenart.jpg",
+    "slika-qr": "../qr-codes/qr_code_7.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 8,
     "ime": "Valentin",
     "priimek": "Vodnik",
     "naslov": "Vodnikova cesta",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Ne hčere ne sina","po meni ne bo.","Dovolj je spomina,","me pesmi pojo."],
     "pesemnaslov": "Moj spomenik",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/valentinvodnik.jpg",
+    "slika-qr": "../qr-codes/qr_code_8.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 9,
     "ime": "Srečko",
     "priimek": "Kosovel",
     "naslov": "Križevniška 8",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Rotacijksi večer.","Drevje ob zeleni vodi.","Rotacija duha","Moj duh je rdeč."],
     "pesemnaslov": "Integrali",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/sreckokosovel.jpg",
+    "slika-qr": "../qr-codes/qr_code_9.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 10,
     "ime": "Mila",
     "priimek": "Kačič",
     "naslov": "Lepi pot 4",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Pomladno jutro, vstalo iz noči,","V predivo megle skrilo je obzorje.","Tam daleč, daleč zadaj, tam je morje,","Še dlje za morjem sonce je in ti."],
     "pesemnaslov": "Skoz pomladni dež",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/milakacic.jpg",
+    "slika-qr": "../qr-codes/qr_code_10.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 11,
     "ime": "Edvard",
     "priimek": "Kocbek",
     "naslov": "Valvazorjeva 10",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Glej , ti si zdaj","In jaz sem zdaj,","Oba sva brez prestanka"],
     "pesemnaslov": "Oba",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/edvardkocbek.jpg",
+    "slika-qr": "../qr-codes/qr_code_11.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 12,
     "ime": "Gregor",
     "priimek": "Strniša",
     "naslov": "Rožna dolina, Cesta 5/21",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Pride svit, svet je kot prej, ","Zida ni, ti lahko greš.","Greš lahko na vse strani,","Samo, to nisi vešč ti."],
     "pesemnaslov": "Pesem o kamnitem pragu",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/gregorstrnisa.jpg",
+    "slika-qr": "../qr-codes/qr_code_12.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 13,
     "ime": "Cene",
     "priimek": "Vipotnik",
     "naslov": "Tabor 3a",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Ti si, kot da presiješ vse globine,","Da skozi zmedo, zmote krčiš pot,","Da v ostrem žaru vsa resnica sine,","Da svetuješ vam zvesto, kam naj kod…"],
     "pesemnaslov": "Pesem o soncu",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/cenevipotnik.jpg",
+    "slika-qr": "../qr-codes/qr_code_13.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 14,
     "ime": "Alojz",
     "priimek": "Gradnik",
     "naslov": "Župančičeva 14",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Pil sem te in ne izpil, ljubezen.","Ko duhteče vino sladkih trt","užil sem te, da nisem bil več trezen","in da nisem vedel, da si smrt."],
     "pesemnaslov": "Eros Tanatos",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/alojzgradnik.jpg",
+    "slika-qr": "../qr-codes/qr_code_14.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 15,
     "ime": "Dane",
     "priimek": "Zajc",
     "naslov": "Praprotnikova 5",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Je na drugem svetu. Enakem.","Je drug na drugem svetu. Enak.","Je enak na istem svetu. ","Drug na drugem isti."],
     "pesemnaslov": "Isti",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/danezajc.jpg",
+    "slika-qr": "../qr-codes/qr_code_15.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 16,
     "ime": "Jure",
     "priimek": "Detela",
     "naslov": "Gregorčičeva 17",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Je res že čas, da se nad našim mestom","Zasveti predstave v železu?","Nekje morejo biti natančne meje.","Črke so drugje."],
     "pesemnaslov": "Potujoči",
-    "slika-src": "/"
+    "slika-src": "../images/juredetela.jpg",
+    "slika-qr": "../qr-codes/qr_code_16.png",
+    "title": "E-KNJIŽNI NOMAD"
 }, {
     "id": 17,
     "ime": "Marko",
     "priimek": "Pavček",
     "naslov": "Trubarjeva 61",
-    "pesem": "Hodim in gledam pomlad, cvetice, drevesa in ptice, slišim šumenje in klice: »Živeti-živeti-živeti sred zmeraj kipečih naslad!«",
+    "pesem": ["Z vsako pesmijo","me je manj.","Spraskam se v pesem.","Počasi. Kos za kosom.","Bolečina je pekoča, a sladka."],
     "pesemnaslov": "Z vsako pesmijo me je manj",
-    "slika-src": "/",
-    "slika-qr": "/"
+    "slika-src": "../images/markopavcek.jpeg",
+    "slika-qr": "../qr-codes/qr_code_17.png",
+    "title": "E-KNJIŽNI NOMAD"
 }
 
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-knjizni Nomad - Interaktivni Zemljevid</title>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <button id="fab" class="mapButtons"><img class="mapButtonImages" src="media/img/close_white_24dp.svg" /></button>
+
+        <div id="fabButtons">
+
+            <button id="editButton" class="mapButtons">
+                <img class="mapButtonImages" src="media/img/edit_white_24dp.svg" />
+            </button>
+
+            <div id="addMoveRemove">
+                <button id="addButton" class="mapButtons">
+                    <img class="mapButtonImages" src="media/img/note_add_white_24dp.svg" />
+                </button>
+                <button id="removeButton" class="mapButtons">
+                    <img class="mapButtonImages" src="media/img/delete_white_24dp.svg" />
+                </button>
+                <button id="renameButton" class="mapButtons">
+                    <img class="mapButtonImages" src="media/img/drive_file_rename_outline_white_24dp.svg" />
+                </button>
+                <button id="saveButton" class="mapButtons">
+                    <img class="mapButtonImages" src="media/img/save_white_24dp.svg" />
+                </button>
+            </div>
+
+            <button id="infoButton" class="mapButtons">
+                <img class="mapButtonImages" src="media/img/info_white_24dp.svg" />
+            </button>
+
+            <button id="backButton" class="mapButtons" onclick="history.back()">
+                <img class="mapButtonImages" src="media/img/arrow_back_white_24dp.svg" />
+            </button>
+
+        </div>
+
+        <script src="js/build/three.js"></script>
+        
+        <script type="module" src="main.js"></script>
+
+        <div id="popup"><div class="text"></div></div>
+
+        <div id="welcomeScreen">
+            <h1 id="loadingText">NALAGANJE</h1>
+            <div id="myProgress">
+                <div id="myBar"></div>
+            </div>
+        </div>
+
+        <div id="infoScreen">
+            <div class="infoTextContainer">
+
+                <h1 class="infoTitle">Opis projekta</h1>
+
+                <p class="infoText">
+                    E-knjižni flaknker je projekt, ki se je pred leti odvijal na ulicah Ljubljane, sedaj pa se prestavlja v muzej kot trajnostna postavitev v obliki projekta E-knjižni nomad.
+                </p>
+                <p class="infoText">
+                    Gre za virtualno knjižnico del slovenskih pesnikov, ki skuša poezijo približati ljudem. Trenutno se v e-knjižnici nahaja 20 del, ki jih lahko prebirate, ob enem pa izbirate besede, ki po vašem mnenju najbolj zaznamujejo prebrano poezijo.
+                </p>
+                <p class="infoText">
+                    Del projekta je tudi interaktivni zemljevid. Gre za lokacije v Slovenski prestolnici, kjer so pesniki prebivali. V virtualnem okolju laho obiščemo njihove lokacije, pri tem pa prebiramo njihova dela in si ogledamo, kako njihov kraj bivanja izgleda danes.
+                </p>
+
+                <h1 class="infoTitle">Navodila za uporabo</h1>
+
+                <ul class="infoText">
+                    <li >Administratorji:
+                        <ul>
+                            <li>Dodajanje lokacij</li>
+                            <li>Urejanje informacij lokacij</li>
+                            <li>Brisanje lokacij</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Vsi uporabniki:
+                        <ul>
+                            <li>Klikanje in pregledovanje informacij o lokaciji</li>
+                            <li>Iskanje lokacije</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p class="infoText">
+                    Uporabniki se s klikanjem na rumene sfere premikajo od lokacije do lokacije in prebirajo dela posameznih pesnikov. Ob tem je podana tudi možnost skeniranja QR kode, ki uporabnika preusmeri na stran, kjer poteka vizualizacija prikazane pesmi.
+                </p>
+
+            </div>
+        </div>
+    </body>
+</html>

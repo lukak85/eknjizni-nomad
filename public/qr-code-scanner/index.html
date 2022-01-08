@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-KNJIŽNI NOMAD</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <!-- Animate Css -->
+  <link rel="stylesheet" href="../stylesheets/animate.css">
+  <!-- Icon Font css -->
+  <link rel="stylesheet" href="../stylesheets/all.css">
+  <link rel="stylesheet" href="../stylesheets/Pe-icon-7-stroke.css">
+  <!-- Themify icon Css -->
+  <link rel="stylesheet" href="../stylesheets/themify-icons.css">
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="../stylesheets/slick.css">
+  <link rel="stylesheet" href="../stylesheets/slick-theme.css">
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+  </head>
+
+  <body id="top-header">
+ 
+    <div class="logo-bar d-none d-md-block d-lg-block bg-light">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo d-none d-lg-block">
+              {{!-- title je clickable --}}
+                        <a class="navbar-brand js-scroll-trigger" href="/" style="margin-left: 12px"> 
+                            <h2>{{title}}</h2>
+                        </a>
+                    </div>
+                </div>
+                {{!-- <ul class="ml-lg-auto list-unstyled m-0">
+                    <li><a href="#" class="btn btn-white btn-circled"><i class="fas fa-search"></i> Iskanje po e-knjižnici</a></li>
+                </ul> --}}
+                </div>
+            </div>
+        
+    </div>
+    </div>
+
+    <!-- NAVBAR
+    ================================================= -->
+    <div class="main-navigation" id="mainmenu-area">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius">
+                <div class="container">
+                <a class="navbar-brand d-lg-none d-block" href="/">
+                    <h4>E-KNJIŽNI NOMAD</h4>
+                </a>
+                <a class="navbar-brand d-lg-none d-block info-nomad" href="/about">
+                    <img src="../images/information-icon-white-6.jpeg" width="26px" height="26px">
+                </a>
+                <!-- Toggler -->
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    
+                </div>
+                </div> <!-- / .navbar-collapse -->
+            </nav>
+        </div> <!-- / .container -->
+    </div>
+
+
+    <div id="container" style="padding-top: 100px !important">
+
+      <a id="btn-scan-qr">
+        <img src="./src/scan1.png" style="background-color: none;">
+      </a>
+
+      <canvas hidden="" id="qr-canvas" style="width: 100% !important;"></canvas>
+
+      <div id="qr-result" hidden="">
+        <b>Data:</b> <span id="outputData"></span>
+      </div>
+
+    <div style="margin-bottom: 20px !important;">
+      <p style="text-align: center; color: black; font-size: 13px;">Pritisni na kvadrat za skeniranje, nato pa postavi QR kodo znotraj kvadrata.<p>
+        <p style="text-align: center; color: gray; font-size: 13px;">QR koda je na voljo na 
+            spletni strani e-knjižnega nomada.</p>
+    </div>
+
+    <a href="javascript:history.back()"><div class="mapca1 fixed-bottom">
+      <img src="./src/back_arrow.png">
+  </div></a>
+  
+  </div>
+
+    <script src="./src/qrCodeScanner.js"></script>
+  </body>
+</html>

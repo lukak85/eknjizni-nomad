@@ -1,6 +1,7 @@
 var mapa = (req, res) => {
     res.render('map', {
-        title: 'e-knjižni nomad'
+        title: 'E-KNJIŽNI NOMAD',
+        layout: '../views/layout.hbs',
     });
 };
 

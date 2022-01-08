@@ -1,0 +1,78 @@
+<div class="container">
+<div class="banner-area py-7">
+        <!-- Content -->
+        <div class="container">
+            <div class="row  align-items-center" >
+                <div class="col-md-12 col-lg-12 text-center text-lg-left">
+                    <div class="main-banner" style="background-color: white !important;">
+{{!-- 
+                            <div class="content">
+                                <div class="">
+                                  <p style="margin-left: 30px; margin-top: 20px"> {{besede}}</p>
+                                  <br>
+                                </div>
+                            </div> --}}
+                            <div class="">
+                                  <h3><strong>{{podatki}}</strong></h3>
+                                  <h4 style="margin-top: 20px"> {{pesem}}</h4>
+                                  <br>
+                            </div>
+                            {{!-- <div class="content"> --}}
+                                <div class="">
+                                        
+                                        {{#each besedeIzb}}
+                                        <button id="{{id-b}}" onclick="reply_click({{id-b}})" class="izbira">
+                                            {{this.beseda}}
+                                            <br>
+                                        {{/each}}
+                                    </button>
+                                  <br>
+                                  
+                                </div>
+                            {{!-- </div> --}}
+                            <br>
+                            <br>
+                            <a id="visualizeButton" href="/vizualizacija/{{id}}" class="btn btn-green btn-circled" onclick="postIncreaseWord()">Nadaljuj z izbrano besedo</a>
+                            <br>
+                            <br>
+                            <p>Izberite besedo, ki po vašem mnenju najbolj zaznamuje besedilo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+</div>
+
+<script>
+    var widb = 1;
+
+    function reply_click(clicked_id) {
+        console.log(clicked_id);
+        widb = clicked_id;
+    }
+
+    function postIncreaseWord() {
+        var wid = decodeURIComponent('{{{id}}}');
+
+        console.log(wid);
+        console.log(widb);
+
+        $.post(
+            "../shrani",
+            {
+                params: {
+                    work_id: wid,
+                    clicked_id: widb
+                }
+            },
+            function(data, status){
+                console.log(data);
+                console.log("Sending success");
+            }
+        );
+    }
+</script>
+
+<script>
+    
+</script>

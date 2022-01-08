@@ -20,6 +20,35 @@
 * ----------------------------------------
 */
 @import url(https://db.onlinewebfonts.com/c/e7ba83c53239b2cf814d56345146e2a5?family=OCRATributeW01-RegularMono);
+
+/* SCAN */
+#qr-canvas {
+  margin: auto;
+  width: calc(100% - 20px);
+  max-width: 400px;
+}
+
+#btn-scan-qr {
+  cursor: pointer;
+}
+
+#btn-scan-qr img {
+  height: 10em;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+#qr-result {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: gray;
+}
+
+/*  */
+
 html {
   font-family: "OCRATributeW01-RegularMono";
   line-height: 1.15;
@@ -42,6 +71,26 @@ body {
   height: 100%;
 }
 
+.besedilo {
+ padding-right: 0px !important;
+ margin-right: 10px !important;
+ padding-top: 20px !important;
+ padding-left: 20px !important;
+ margin-top: 10px !important;
+
+  
+
+}
+
+.qr {
+  margin-top: -90px !important;
+  border-width: 5px !important;
+  border-color: #73AB84 !important;
+  border-radius: 20px !important;
+  border-style: solid !important;
+}
+
+
 .bg {
   /* The image used */
   background-image: url("../slike/bg1.png");
@@ -57,12 +106,27 @@ body {
   
 }
 
+@media screen and (max-width:1000px) {
+  .navbar-toggler {
+    display: none !important;
+    
+  }
+  
+
+}
+
+.mapca {
+  display: none;
+
+}
+
+
 .word-select:hover {
   color: #73AB84;
 }
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1000px) {
   .bg {
     background-image: url("../slike/bg1-m.png");
     /* Full height */
@@ -70,6 +134,10 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+  }
+
+  .besedilo, .qr {
+    display: none !important;
   }
 }
 
@@ -132,7 +200,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1000px) {
   .align-right {
     display: block;
   margin-left: auto;
@@ -146,7 +214,36 @@ body {
     background-image: none !important;
   }
 
+  .mapca {
+    display: block !important;
+    background-color: rgb(18, 156, 18);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-bottom: 17%;
+    margin-right: 8%;
+    margin-left: 79%;
+    box-shadow: 
+    10px -11px 10px -10px #CCC;
+  
+  }
+
+  .mapca>img {
+    width: 60% !important;
+    fill: white !important;
+    filter: invert(100%);
+    width: 60px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 14%;
+    margin-bottom: 10%;
+    opacity: 80%;
+   
+  }
+
   .footy {
+    position: fixed !important;
     display: block !important;
     background-color: #eee;
     width: 100%;
@@ -201,8 +298,11 @@ body {
     display: none !important;
   }
 
+
+
   .main-navigation {
     margin-top: 0 !important;
+    
   }
 
   .bg>h1 {
@@ -347,7 +447,7 @@ img {
   padding: 8.125rem 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .section {
     padding: 7.5rem 0;
   }
@@ -361,7 +461,7 @@ img {
   padding-bottom: 8.125rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .section-top {
     padding-top: 10.3125rem;
   }
@@ -2275,6 +2375,7 @@ a:hover {
 
 .qr-koda {
   width: 40%;
+  
 }
 
 .card-img2 {
@@ -2387,35 +2488,37 @@ ul.cloud li:nth-child(4n+1) a { --color: #c38; } */
 }
 
 @keyframes mymove {
-  from {left: -15px;}
-  to {left: 375px;}
+  from {left: 0%;}
+  to {left: 100%;}
 }
 
 @keyframes mymove2 {
-  from {left: 40px;}
-  to {left: 375px;}
-}
-.animacija {
-  position: relative;
-  animation: myfirst 5s infinite;
-  animation-direction: alternate;
-  font-size: 50px;
-  color: #73AB84;
+  from {left: 0%;}
+  to {left: 100%;}
 }
 
 .animacija11 {
   position: relative;
-  animation: myfirst11 9s infinite;
+  animation: myfirst11 4s infinite;
   animation-direction: alternate;
-  font-size: 50px;
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.animacija {
+  position: relative;
+  animation: myfirst 5s infinite;
+  animation-direction: alternate;
+  font-size: 20px;
   color: #73AB84;
 }
+
 .animacija2 {
   position: relative;
   animation: myfirst2 7s infinite;
   animation-direction: alternate;
-  font-size: 40px;
-  color: #73AB84;
+  font-size: 25px;
+  color: #6ebac4;
 }
 
 .animacija3 {
@@ -2423,7 +2526,7 @@ ul.cloud li:nth-child(4n+1) a { --color: #c38; } */
   animation: myfirst3 9s infinite;
   animation-direction: alternate;
   font-size: 30px;
-  color: #73AB84;
+  color: #7f85d4;
 }
 
 .animacija33 {
@@ -2431,36 +2534,60 @@ ul.cloud li:nth-child(4n+1) a { --color: #c38; } */
   animation: myfirst4 6s infinite;
   animation-direction: alternate;
   font-size: 30px;
-  color: #73AB84;
+  color: #8f77c9;
+}
+
+.animacija44 {
+  position: relative;
+  animation: myfirst4 6s infinite;
+  animation-direction: alternate;
+  font-size: 35px;
+  color: #956499;
+}
+
+.animacija4 {
+  position: relative;
+  animation: myfirst4 6s infinite;
+  animation-direction: alternate;
+  font-size: 35px;
+  color: #af7779;
+}
+
+.animacija5 {
+  position: relative;
+  animation: myfirst4 6s infinite;
+  animation-direction: alternate;
+  font-size: 40px;
+  color: #722d2d;
 }
 
 @keyframes myfirst {
-  0%   {left: 0px; top: 0px;}
-  50%  {left: 375px; top: 0px;}
+  0%   {left: -50px; top: 0px;}
+  50%  {left: 100px; top: 0px;}
   100% {left: 0px; top: 0px;}
 }
 
 @keyframes myfirst11 {
-  0%   {left: 10px; top: 0px;}
-  50%  {left: 375px; top: 0px;}
+  0%   {left: -50px; top: 0px;}
+  50%  {left: 100px; top: 0px;}
   100% {left: 0px; top: 0px;}
 }
 
 @keyframes myfirst2 {
-  0%   {left: 40px; top: 0px;}
-  50%  {left: 375px; top: 0px;}
+  0%   {left: -50px; top: 0px;}
+  50%  {left: 100px; top: 0px;}
   100% {left: 0px; top: 0px;}
 }
 
 @keyframes myfirst3 {
-  0%   {left: 60px; top: 0px;}
-  50%  {left: 375px; top: 0px;}
+  0%   {left: -50px; top: 0px;}
+  50%  {left: 100px; top: 0px;}
   100% {left: 0px; top: 0px;}
 }
 
 @keyframes myfirst4 {
-  0%   {left: 50px; top: 0px;}
-  50%  {left: 375px; top: 0px;}
+  0%   {left: -50px; top: 0px;}
+  50%  {left: 100px; top: 0px;}
   100% {left: 0px; top: 0px;}
 }
 
@@ -2476,6 +2603,20 @@ ul.cloud li:nth-child(4n+1) a { --color: #c38; } */
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.izbira {
+  margin: 4px !important;
+  padding: 3px 6px !important;
+  border-radius: 10px !important;
+
+}
+
+.izbira:focus {
+  background-color: #73AB84;
+  border: none !important;
+  border-color: white !important;
+
+} 
 /* 
 
 div.scrollavtorji {

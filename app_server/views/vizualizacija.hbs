@@ -1,0 +1,168 @@
+<div class="container">
+<div class="banner-area py-7">
+        <!-- Content -->
+        <div class="container">
+            <div class="row  align-items-center" >
+                <div class="col-md-12 col-lg-12 text-center text-lg-left">
+                    <div class="main-banner" style="background-color: white !important;">
+{{!-- 
+                            <div class="content">
+                                <div class="">
+                                  <p style="margin-left: 30px; margin-top: 20px"> {{besede}}</p>
+                                  <br>
+                                </div>
+                            </div> --}}
+                            <div class="">
+                                    <a href="/vizualizacija/{{id}}"><button class="btn btn-white btn-circled" style="margin-top: -70px">Osveži</button></a>
+                                  <h3><strong>{{podatki}}</strong></h3>
+                                  <h4>{{pesem}}</h4>
+                                  <br>
+                            </div>
+
+                            {{!-- <div class="content"> --}}
+                                {{!-- <div class="">
+                                        {{#each besede}}
+                                        
+                                        <p style="margin-top: 5px;">{{this}}</p>
+                                           
+                                        {{/each}}
+                                    </button>
+                                  <br>
+                                </div> --}}
+
+                                <div class="" style="width: 200px;">
+                                        {{!-- {{#each besedeIzb}}
+                                            {{#if this.stIzbir}}
+                                                <p style="color: blueviolet;">{{this.beseda}} {{this.stIzbir}}</p>
+                                           {{/if}}
+                                           {{#unless this.stIzbir}} 
+                                                <p style="color: green;">{{this.beseda}} {{this.stIzbir}}</p>
+                                            {{/unless}}
+                                        {{/each}} --}}
+                                        {{#each besedeIzb}}
+                                            {{!-- <p onload="prikaz()">{{this.beseda}} {{this.stIzbir}}</p> --}}
+                                            <p class="e{{{this.stIzbir}}}">{{this.beseda}}</p>
+                                            {{!-- <p id="{{this.stIzbir}}"">{{this.beseda}} {{this.stIzbir}}</p> --}}
+                                        {{/each}}
+                            
+                                  <br>
+                                </div>
+
+                                <div>
+                                    <a href="/izbira/{{id}}"class="btn btn-green btn-circled">Nazaj</a>
+                                    <br>
+                                    <a href="/qr-code-scanner"class="btn btn-white btn-circled">Skeniraj novo</a>
+                                </div>
+                            {{!-- </div> --}}
+                            <br>
+                            <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+</div>
+
+<script>
+    // document.getElementById("0").style.color = "red";
+
+    //for zanka od 0 do 100 gre čez vse p.e0-p.e99 in da stran zadnje cifre in potem na podlagi teh cifr naredi barvo?
+    
+
+    var a0 = document.querySelectorAll("p.e0");
+    console.log(a0);
+    for(var i=0; i<a0.length; i++) {
+       // a0[i].style.color = "grey";
+       // a0[i].style.fontSize = "xx-small";
+        a0[i].classList.add('animacija11');
+    };
+
+    var a1 = document.querySelectorAll("p.e1");
+    console.log(a1);
+    for(var i=0; i<a1.length; i++) {
+       // a1[i].style.color = "green";
+       // a1[i].style.fontSize = "x-small";
+        a1[i].classList.add('animacija');
+    };
+
+    var a2 = document.querySelectorAll("p.e2");
+    console.log(a2);
+    for(var i=0; i<a2.length; i++) {
+        //a2[i].style.color = "blue";
+        //a2[i].style.fontSize = "small";
+        a2[i].classList.add('animacija2');
+    };
+
+    var a3 = document.querySelectorAll("p.e3");
+    console.log(a3);
+    for(var i=0; i<a3.length; i++) {
+        //a3[i].style.color = "grey";
+        //a3[i].style.fontSize = "small";
+        a3[i].classList.add('animacija2');
+    };
+
+    var a4 = document.querySelectorAll("p.e4");
+    console.log(a4);
+    for(var i=0; i<a4.length; i++) {
+        //a4[i].style.color = "green";
+        //a4[i].style.fontSize = "medium";
+        a4[i].classList.add('animacija3');
+    };
+
+    var a5 = document.querySelectorAll("p.e5");
+    console.log(a5);
+    for(var i=0; i<a5.length; i++) {
+        //a5[i].style.color = "blue";
+        //a5[i].style.fontSize = "medium";
+        a5[i].classList.add('animacija33');
+    };
+    
+    var a6 = document.querySelectorAll("p.e6");
+    console.log(a6);
+    for(var i=0; i<a6.length; i++) {
+        //a6[i].style.color = "blue";
+        //a6[i].style.fontSize = "large";
+        a6[i].classList.add('animacija3');
+    };
+
+    var a7 = document.querySelectorAll("p.e7");
+    console.log(a7);
+    for(var i=0; i<a7.length; i++) {
+        //a7[i].style.color = "grey";
+        //a7[i].style.fontSize = "large";
+        a7[i].classList.add('animacija2');
+    };
+
+    var a8 = document.querySelectorAll("p.e8");
+    console.log(a8);
+    for(var i=0; i<a8.length; i++) {
+        //a8[i].style.color = "green";
+        //a8[i].style.fontSize = "x-large";
+        a8[i].classList.add('animacija44');
+    };
+
+    var a9 = document.querySelectorAll("p.e9");
+    console.log(a9);
+    for(var i=0; i<a9.length; i++) {
+        //a9[i].style.color = "blue";
+        //a9[i].style.fontSize = "x-large";
+        a9[i].classList.add('animacija4');
+    };
+    
+    var a10 = document.querySelectorAll("p.e10");
+    console.log(a10);
+    for(var i=0; i<a10.length; i++) {
+        //a10[i].style.color = "blue";
+        //a10[i].style.fontSize = "xx-large";
+        a9[i].classList.add('animacija5');
+    };
+    
+
+    
+
+
+    
+   // a1.style.color = "red";
+
+</script>

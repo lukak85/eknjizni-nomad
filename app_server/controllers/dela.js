@@ -2,11 +2,15 @@ var dela = require("../models/dela.json");
 // var dela2 = require("../models/dela2.json");
 // var dela3 = require("../models/dela3.json");
 // var dela4 = require("../models/dela4.json");
+var besede = require("../models/besede.json")
+
+var naslov = "E-KNJIŽNI NOMAD";
 
 var seznam = (req, res) => {
     res.render('index', {
-        title: 'e-knjižni nomad',
-        dela: dela
+        title: naslov,
+        dela: dela,
+        layout: '../views/layout.hbs',
         // dela2: dela2
         // // dela3: dela3,
         // // dela4: dela4
@@ -23,6 +27,7 @@ var podrobnostiDela = (req, res) => {
     });
 };
 
+
 var podrobnostiPesmi = (req, res) => {
     var seznamIndex = req.params.id;
 
@@ -33,10 +38,21 @@ var podrobnostiPesmi = (req, res) => {
     });
 };
 
+var podrobnostiBesed = (req, res) => {
+    var seznamIndex = req.params.id;
+
+    besede.forEach(function (item, index) {
+        if(item.id == seznamIndex) {
+            res.render('izbira', item);
+        }
+    });
+};
+
 module.exports = {
     seznam,
     podrobnostiDela,
-    podrobnostiPesmi
+    podrobnostiPesmi,
+    podrobnostiBesed
 };
 
 

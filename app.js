@@ -7,9 +7,25 @@ var logger = require('morgan');
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 
+
 var app = express();
 
+// BEGIN For changing JSON, maybe not useful anymore lol
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+// in latest body-parser use like below.
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use((req, res, next) => {
+  res.set('Cache-Control', 'no-store')
+  next()
+});
+// END For changing JSON
+
+
 // view engine setup
+
 app.set('views', path.join(__dirname, 'app_server', 'views'));
 app.set('view engine', 'hbs');
 
